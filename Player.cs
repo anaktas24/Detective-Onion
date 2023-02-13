@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    public float moveSpeed = 7;
+    [SerializeField] float moveSpeed = 7;
     // Update is called once per frame
     private void Update(){
         Vector2 inputVector = new Vector2(0,0);
